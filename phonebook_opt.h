@@ -41,5 +41,7 @@ typedef struct __PHONE_BOOK_ENTRY {
 
 entry *findName(char lastname[], entry *pHead);
 entry *append(char lastName[], entry *e);
+unsigned int BKDRHash(char *str);
+unsigned int Hash(char *str);
 
 #endif
