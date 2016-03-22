@@ -79,6 +79,8 @@ int main(int argc, char *argv[])
     clock_gettime(CLOCK_REALTIME, &end);
     cpu_time2 = diff_in_second(start, end);
 
+
+
     FILE *output;
 #if defined(OPT)
     output = fopen("opt.txt", "a");
